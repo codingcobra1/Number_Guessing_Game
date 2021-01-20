@@ -6,7 +6,7 @@ print('Hey there! This is a Number Guessing game. What is your name? ')
 myName = input()
 
 number = random.randint(1, 30)
-print('Well ' + myName + ', I am thinking of a number between 1 and 20.')
+print('Well ' + myName + ', I am thinking of a number between 1 and 30.')
 
 while guessTaken < 6:
     print("Take a guess.")
